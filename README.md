@@ -39,7 +39,7 @@ Start here bozo
 <br />
 
 <p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vb5bYkr.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Start here bozo
