@@ -31,7 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ADUIJNc.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Start here bozo
