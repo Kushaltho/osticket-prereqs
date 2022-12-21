@@ -22,7 +22,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
+- Installation Files https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 - Item 2
 - Item 3
 - Item 4
@@ -42,7 +42,7 @@ Look up Vitural Machines and click on the result.
 <img src="https://i.imgur.com/vb5bYkr.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Since we havent created the resouce group for the VM yet, we will let it create one for us. Memorize or (not the best pratice but its only for this )write down the username and password. We will choose a windows OS , with 4vpc(so you can run the VM quicker)  leave the default setttings for the Network, Disk.
+Since we havent created the resouce group for the VM yet, we will let it create one for us. Memorize or (not the best pratice but its only for this )write down the username and password. We will choose a windows OS , with 4vpc(so you can run the VM quicker)  leave the default setttings for the Network, Disk and create the VM.
 </p>
 <br />
 
@@ -54,10 +54,10 @@ Remote in to the VM via remote desktop connection with the VM's public adress as
 <br />
 
 <p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CbbxR07.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Start here bozo
+Once in the VM, go to control panel>"uninstall a program"> "turn windows fetures on or off">Highlight Internet Information Services>"OK". This creates a webserrver on the VM which be used to server osTiket.
 </p>
 <br />
 
