@@ -44,7 +44,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
-    Since we havent created the resouce group for the VM yet, we will let it create one for us. Memorize or (not the best pratice but its only for this )write down the username and password. We will choose a windows OS , with 4vpc(so you can run the VM quicker)  leave the default setttings for the Network, Disk and create the VM.
+Since we havent created the resouce group for the VM yet, we will let it create one for us. Memorize or (not the best pratice but its only for this )write down the username and password. We will choose a windows OS , with 4vpc(so you can run the VM quicker)  leave the default setttings for the Network, Disk and create the VM.
 </p>
 <br />
 
@@ -53,7 +53,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
-    Remote in to the VM via remote desktop connection with the VM's public adress as shown above. And enter the user and password when prompted. </p>
+Remote in to the VM via remote desktop connection with the VM's public adress as shown above. And enter the user and password when prompted. </p>
 <br />
 
 <p>
@@ -61,7 +61,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
-    Once in the VM, go to control panel>"uninstall a program"> "turn windows fetures on or off">Highlight Internet Information Services>"OK". This creates a webserrver on the VM which be used to server osTiket.
+Once in the VM, go to control panel>"uninstall a program"> "turn windows fetures on or off">Highlight Internet Information Services>"OK". This creates a webserrver on the VM which be used to server osTiket.
 </p>
 <br />
 
@@ -80,7 +80,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
     Password: Password1(can be whatever but be sure to remember or write it down).
     
-    A screen similar to the one above might appear in which download the things needed so I would download the PHP manger and Microscof Visuall C++(ignore the php5.3.28).Find the links in Insallation Files. And might as well download osticket while you are there.
+A screen similar to the one above might appear in which download the things needed so I would download the PHP manger and Microscof Visuall C++(ignore the php5.3.28).Find the links in Insallation Files. And might as well download osticket while you are there.
 </p>
 <br />
 
@@ -89,13 +89,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/M8aNb0r.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open File Exopler go to downloads and "extract all" the osticket Folder.
+
+    Open File Exopler go to downloads and "extract all" the osticket Folder.
     
-Open the extracted osTicket folder .
+    Open the extracted osTicket folder .
     
-Extract and copy the “upload” folder INTO c:\inetpub\wwwroot.
+    Extract and copy the “upload” folder INTO c:\inetpub\wwwroot.
     
-Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+    Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 </p>
 <br />
 
@@ -125,8 +126,8 @@ And a similar page should open up in the browser as shown below.
 </p>
 <p>
 Go back to IIS, sites > Default > osTicket
-    
-Double-click PHP Manager
+
+    Double-click PHP Manager
     
 
     Click “Enable or disable an extension”
@@ -159,7 +160,7 @@ Double-click PHP Manager
 
     Disable inheritance > Remove All
     
-New Permissions > Everyone > Full access
+    New Permissions > Everyone > Full access
 </p>
 <br />
 
@@ -169,7 +170,7 @@ New Permissions > Everyone > Full access
 </p>
 <p>
 
-    Go back to the page and you will similar page as show above. Just fill the emails as you like. The important part is the username and password for the admin.Remember them or write it down for now.
+Go back to the page and you will similar page as show above. Just fill the emails as you like. The important part is the username and password for the admin.Remember them or write it down for now.
 </p>
 <br />
 
@@ -207,10 +208,13 @@ New Permissions > Everyone > Full access
 
 
 <p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qbAEgdt.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Start here bozo
+
+    If you have done everything correctly then you should see a page like the one above.
+
+    If so then try to login as a staff with the link on the bottom right under "Staff Control Panel".
 </p>
 <br />
 
@@ -219,112 +223,15 @@ Start here bozo
 <img src="" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Start here bozo
+
+    With this we are done but lets clean some things up.
+    
+    Delete C:\inetpub\wwwroot\osTicket\setup which makes it so that osticket doesnt bug us with prompts everytime we login.
+    
+    Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php like we did before so only people with permisson can change things.
 </p>
 <br />
 
 
-<p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Start here bozo
-</p>
-<br />
 
-<p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Start here bozo
-</p>
-<br />
-
-
-<p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Start here bozo
-</p>
-<br />
-
-
-<p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Start here bozo
-</p>
-<br />
-
-
-<p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Start here bozo
-</p>
-<br />
-
-
-<p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Start here bozo
-</p>
-<br />
-
-
-<p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Start here bozo
-</p>
-<br />
-
-
-<p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Start here bozo
-</p>
-<br />
-
-<p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Start here bozo
-</p>
-<br />
-
-<p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Start here bozo
-</p>
-<br />
-
-
-<p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Start here bozo
-</p>
-<br />
-
-
-<p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Start here bozo
-</p>
-<br />
 
