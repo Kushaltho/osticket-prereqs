@@ -75,18 +75,20 @@ Name: root
 
 Password: Password1(can be whatever but be sure to remember or write it down).
     
-A screen similar to the one above might appear in which download the things needed so I would download the PHP manger and Microscof Visuall C++(ignore the php5.3.28).Find the links in Insallation Files.
-
-
+A screen similar to the one above might appear in which download the things needed so I would download the PHP manger and Microscof Visuall C++(ignore the php5.3.28).Find the links in Insallation Files. And might as well download osticket while you are there.
 </p>
 <br />
 
 
 <p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/M8aNb0r.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Start here bozo
+Open File Exopler and extract the osticket Folder
+    
+Extract and copy the “upload” folder INTO c:\inetpub\wwwroot
+    
+Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 </p>
 <br />
 
