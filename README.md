@@ -160,15 +160,20 @@ New Permissions > Everyone > Full access
 <img src="https://i.imgur.com/KnXMxq6.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Go back to the page and you will similar page as show above. Just fill the emails as you like. The important part is the username and password for the admin.
+Go back to the page and you will similar page as show above. Just fill the emails as you like. The important part is the username and password for the admin.Remember them or write it down for now.
 </p>
 <br />
 
 <p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/O0tNcUA.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Start here bozo
+Download and Install HeidiSQL (from the installation files)
+
+Rember the MySQL database we made at the start. Well HeidiSQL is a client that allows us to connect to that database
+Create a new session, root/Password1
+Connect to the session
+Create a database called “osTicket”
 </p>
 <br />
 
