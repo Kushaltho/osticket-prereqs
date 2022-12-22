@@ -107,17 +107,27 @@ Restart IIS as shown above.
 Go to sites > Default > osTicket
 
 On the right tab, click “Browse *:80”
+    
+And a similar page should open up in the browser as shown below.
 </p>
 <br />
 <p>
 <img src="https://i.imgur.com/kFyMmkE.png" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+==================================================================================================
 
-<p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/WkXDPsw.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Start here bozo
+Go back to IIS, sites > Default > osTicket
+    
+Double-click PHP Manager
+    
+Click “Enable or disable an extension”
+    
+Enable: php_imap.dll , php_intl.dll , php_opcache.dll
+
+Refreash the page and changes above should be seen.
 </p>
 <br />
 
