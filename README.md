@@ -34,7 +34,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/ADUIJNc.png" width="80%" alt="Searching for VM"/>
 </p>
 <p>
-Look up Vitural Machines and click on the result.  
+
+    Look up Vitural Machines and click on the result.  
 </p>
 <br />
 
@@ -42,7 +43,8 @@ Look up Vitural Machines and click on the result.
 <img src="https://i.imgur.com/vb5bYkr.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Since we havent created the resouce group for the VM yet, we will let it create one for us. Memorize or (not the best pratice but its only for this )write down the username and password. We will choose a windows OS , with 4vpc(so you can run the VM quicker)  leave the default setttings for the Network, Disk and create the VM.
+
+    Since we havent created the resouce group for the VM yet, we will let it create one for us. Memorize or (not the best pratice but its only for this )write down the username and password. We will choose a windows OS , with 4vpc(so you can run the VM quicker)  leave the default setttings for the Network, Disk and create the VM.
 </p>
 <br />
 
@@ -50,14 +52,16 @@ Since we havent created the resouce group for the VM yet, we will let it create 
 <img src="https://i.imgur.com/nhLMOla.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Remote in to the VM via remote desktop connection with the VM's public adress as shown above. And enter the user and password when prompted. </p>
+
+    Remote in to the VM via remote desktop connection with the VM's public adress as shown above. And enter the user and password when prompted. </p>
 <br />
 
 <p>
 <img src="https://i.imgur.com/CbbxR07.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Once in the VM, go to control panel>"uninstall a program"> "turn windows fetures on or off">Highlight Internet Information Services>"OK". This creates a webserrver on the VM which be used to server osTiket.
+
+    Once in the VM, go to control panel>"uninstall a program"> "turn windows fetures on or off">Highlight Internet Information Services>"OK". This creates a webserrver on the VM which be used to server osTiket.
 </p>
 <br />
 
@@ -65,17 +69,18 @@ Once in the VM, go to control panel>"uninstall a program"> "turn windows fetures
 <img src="https://i.imgur.com/T3ijOTG.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install Web Platform Installer download from the "Installation Files" above.
 
-Open WPI and Add MySQL 5.5 and all simple versions of x86 PHP up until 7.3 but not 7.4
+    Install Web Platform Installer download from the "Installation Files" above.
 
-Click Intsall.
+    Open WPI and Add MySQL 5.5 and all simple versions of x86 PHP up until 7.3 but not 7.4
 
-Name: root
+    Click Intsall.
 
-Password: Password1(can be whatever but be sure to remember or write it down).
+    Name: root
+
+    Password: Password1(can be whatever but be sure to remember or write it down).
     
-A screen similar to the one above might appear in which download the things needed so I would download the PHP manger and Microscof Visuall C++(ignore the php5.3.28).Find the links in Insallation Files. And might as well download osticket while you are there.
+    A screen similar to the one above might appear in which download the things needed so I would download the PHP manger and Microscof Visuall C++(ignore the php5.3.28).Find the links in Insallation Files. And might as well download osticket while you are there.
 </p>
 <br />
 
@@ -123,11 +128,12 @@ Go back to IIS, sites > Default > osTicket
     
 Double-click PHP Manager
     
-Click “Enable or disable an extension”
-    
-Enable: php_imap.dll , php_intl.dll , php_opcache.dll
 
-Refreash the page and changes above should be seen.
+    Click “Enable or disable an extension”
+    
+    Enable: php_imap.dll , php_intl.dll , php_opcache.dll
+
+    Refreash the page and changes above should be seen.
 </p>
 <br />
 
@@ -136,7 +142,8 @@ Refreash the page and changes above should be seen.
 <img src="https://i.imgur.com/YEATvTz.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Change C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to "ost-config.php"
+
+    Change C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to "ost-config.php"
 </p>
 <br />
 
@@ -145,11 +152,12 @@ Change C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to "ost-config.p
 <img src="https://i.imgur.com/snv80yb.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Assigning Permissions: ost-config.php
-    
-ost-config.php>right click>properties>security> 
 
-Disable inheritance > Remove All
+    Assigning Permissions: ost-config.php
+    
+    ost-config.php>right click>properties>security> 
+
+    Disable inheritance > Remove All
     
 New Permissions > Everyone > Full access
 </p>
@@ -160,7 +168,8 @@ New Permissions > Everyone > Full access
 <img src="https://i.imgur.com/KnXMxq6.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Go back to the page and you will similar page as show above. Just fill the emails as you like. The important part is the username and password for the admin.Remember them or write it down for now.
+
+    Go back to the page and you will similar page as show above. Just fill the emails as you like. The important part is the username and password for the admin.Remember them or write it down for now.
 </p>
 <br />
 
@@ -170,22 +179,29 @@ Go back to the page and you will similar page as show above. Just fill the email
 </p>
 <p>
     
-Download and Install HeidiSQL (from the installation files)
 
-Rember the MySQL database we made at the start. Well HeidiSQL is a client that allows us to connect to that database
-    
-Create a new session, root/Password1 which is the credentails we made for the SQL at the start.
+    Download and Install HeidiSQL (from the installation files)
 
-Connect to the session and create a database called “osTicket” by right clicking on "unnamed">create new.
+    Rember the MySQL database we made at the start. Well HeidiSQL is a client that allows us to connect to that database
+ 
+    Create a new session, root/Password1 which is the credentails we made for the SQL at the start.
+
+    Connect to the session and create a database called “osTicket” by right clicking on "unnamed">create new.
 </p>
 <br />
 
 
 <p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ufMlRgV.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Start here bozo
+
+    MySQL Database: osTicket
+
+    MySQL Username: root
+
+    MySQL Password: Password1
+
 </p>
 <br />
 
