@@ -166,14 +166,17 @@ Go back to the page and you will similar page as show above. Just fill the email
 
 <p>
 <img src="https://i.imgur.com/O0tNcUA.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jfphMDu.png" width="80%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
+    
 Download and Install HeidiSQL (from the installation files)
 
 Rember the MySQL database we made at the start. Well HeidiSQL is a client that allows us to connect to that database
-Create a new session, root/Password1
-Connect to the session
-Create a database called “osTicket”
+    
+Create a new session, root/Password1 which is the credentails we made for the SQL at the start.
+
+Connect to the session and create a database called “osTicket” by right clicking on "unnamed">create new.
 </p>
 <br />
 
