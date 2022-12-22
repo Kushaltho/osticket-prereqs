@@ -113,7 +113,7 @@ And a similar page should open up in the browser as shown below.
 <br />
 <p>
 <img src="https://i.imgur.com/kFyMmkE.png" width="80%" alt="Disk Sanitization Steps"/>
-==================================================================================================
+============================================================================================
 
 
 <img src="https://i.imgur.com/WkXDPsw.png" width="80%" alt="Disk Sanitization Steps"/>
@@ -133,28 +133,34 @@ Refreash the page and changes above should be seen.
 
 
 <p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YEATvTz.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Start here bozo
-</p>
-<br />
-
-
-<p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Start here bozo
+Change C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to "ost-config.php"
 </p>
 <br />
 
 
 <p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/snv80yb.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Start here bozo
+Assigning Permissions: ost-config.php
+    
+ost-config.php>right click>properties>security> 
+
+Disable inheritance > Remove All
+    
+New Permissions > Everyone > Full access
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/KnXMxq6.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go back to the page and you will similar page as show above. Just fill the emails as you like. The important part is the username and password for the admin.
 </p>
 <br />
 
