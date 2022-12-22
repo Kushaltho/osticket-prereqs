@@ -220,15 +220,14 @@ Go back to the page and you will similar page as show above. Just fill the email
 
 
 <p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WhWBs2i.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
-    With this we are done but lets clean some things up.
+With this we are done but lets clean some things up.
     
-    Delete C:\inetpub\wwwroot\osTicket\setup which makes it so that osticket doesnt bug us with prompts everytime we login.
+Delete C:\inetpub\wwwroot\osTicket\setup which makes it so that osticket doesnt bug us with prompts everytime we login. If it doesnt allow you to delete it open the file and delete everything inside first.
     
-    Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php like we did before so only people with permisson can change things.
+Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php like we did before so only people with permisson can change things.
 </p>
 <br />
 
