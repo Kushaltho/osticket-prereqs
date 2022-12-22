@@ -84,9 +84,11 @@ A screen similar to the one above might appear in which download the things need
 <img src="https://i.imgur.com/M8aNb0r.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open File Exopler and extract the osticket Folder
+Open File Exopler go to downloads and "extract all" the osticket Folder.
     
-Extract and copy the “upload” folder INTO c:\inetpub\wwwroot
+Open the extracted osTicket folder .
+    
+Extract and copy the “upload” folder INTO c:\inetpub\wwwroot.
     
 Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 </p>
@@ -94,13 +96,22 @@ Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 
 
 <p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YbinGos.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Start here bozo
+<img src="https://i.imgur.com/NL0ZEl1.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Restart IIS as shown above.
+    
+Go to sites > Default > osTicket
+
+On the right tab, click “Browse *:80”
 </p>
 <br />
-
+<p>
+<img src="https://i.imgur.com/kFyMmkE.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
 <p>
 <img src="" width="80%" alt="Disk Sanitization Steps"/>
