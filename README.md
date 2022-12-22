@@ -62,12 +62,25 @@ Once in the VM, go to control panel>"uninstall a program"> "turn windows fetures
 <br />
 
 <p>
-<img src="" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/T3ijOTG.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Start here bozo
+Install Web Platform Installer download from the "Installation Files" above.
+
+Open WPI and Add MySQL 5.5 and all simple versions of x86 PHP up until 7.3 but not 7.4
+
+Click Intsall.
+
+Name: root
+
+Password: Password1(can be whatever but be sure to remember or write it down).
+    
+A screen similar to the one above might appear in which download the things needed so I would download the PHP manger and Microscof Visuall C++(ignore the php5.3.28).Find the links in Insallation Files.
+
+
 </p>
 <br />
+
 
 <p>
 <img src="" width="80%" alt="Disk Sanitization Steps"/>
