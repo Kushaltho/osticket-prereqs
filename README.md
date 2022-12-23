@@ -167,7 +167,7 @@ Go back to IIS, sites > Default > osTicket
 </p>
 <p>
 
-Go back to the page and you will similar page as show above. Just fill the emails as you like. The important part is the username and password for the admin.Remember them or write it down for now.
+Go back to the page and you will similar page as show above. Just fill the emails as you like. The important part is the username and password for the admin.A better username might have been user_admin.Remember them or write it down for now.
 </p>
 <br />
 
