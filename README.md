@@ -229,6 +229,7 @@ With this we are done but let's clean some things up.
 Delete C:\inetpub\wwwroot\osTicket\setup which makes it so that osticket doesn't bug us with prompts every time we login. If it doesn't allow you to delete it, open the file and delete everything inside first.
     
 Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php like we did before so only people with permission can change things.
+Now move on to configuring its settings.
 </p>
 <br />
 
