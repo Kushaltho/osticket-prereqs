@@ -3,7 +3,10 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.
+
+We will be going through the  
+<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -32,7 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
-    Look up Vitural Machines and click on the result.  
+    Look up Virtual Machines and click on the result.  
 </p>
 <br />
 
@@ -41,7 +44,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
-Since we havent created the resouce group for the VM yet, we will let it create one for us. Memorize or (not the best pratice but its only for this )write down the username and password. We will choose a windows OS , with 4vpc(so you can run the VM quicker)  leave the default setttings for the Network, Disk and create the VM.
+Since we haven't created the resource group for the VM yet, we will let it create one for us. Memorize or (not the best practice but its only for this )write down the username and password. We will choose a windows OS , with 4vpc(so you can run the VM quicker)  , leave the default settings for the Network, Disk and create the VM.
 </p>
 <br />
 
@@ -50,7 +53,7 @@ Since we havent created the resouce group for the VM yet, we will let it create 
 </p>
 <p>
 
-Remote in to the VM via remote desktop connection with the VM's public adress as shown above. And enter the user and password when prompted. </p>
+Remote into the VM via remote desktop connection with the VM's public address as shown above. And enter the user and password when prompted. </p>
 <br />
 
 <p>
@@ -58,7 +61,7 @@ Remote in to the VM via remote desktop connection with the VM's public adress as
 </p>
 <p>
 
-Once in the VM, go to control panel>"uninstall a program"> "turn windows fetures on or off">Highlight Internet Information Services>"OK". This creates a webserrver on the VM which be used to server osTiket.
+Once in the VM, go to the control panel>"uninstall a program"> "turn windows features on or off">Highlight Internet Information Services>"OK". This creates a webserver on the VM which can be used to server osTicket.
 </p>
 <br />
 
@@ -71,13 +74,13 @@ Once in the VM, go to control panel>"uninstall a program"> "turn windows fetures
 
     Open WPI and Add MySQL 5.5 and all simple versions of x86 PHP up until 7.3 but not 7.4
 
-    Click Intsall.
+    Click Install.
 
     Name: root
 
     Password: Password1(can be whatever but be sure to remember or write it down).
     
-A screen similar to the one above might appear in which download the things needed so I would download the PHP manger and Microscof Visuall C++(ignore the php5.3.28).Find the links in Insallation Files. And might as well download osticket while you are there.
+A screen similar to the one above might appear in which to download the things needed so I would download the PHP manager and Microsoft Visual C++(ignore the php5.3.28).Find the links in Installation Files. And might as well download osticket while you are there.
 </p>
 <br />
 
@@ -87,7 +90,7 @@ A screen similar to the one above might appear in which download the things need
 </p>
 <p>
 
-    Open File Exopler go to downloads and "extract all" the osticket Folder.
+    Open File Explorer, go to downloads and "extract all" the osticket Folder.
     
     Open the extracted osTicket folder .
     
@@ -131,7 +134,7 @@ Go back to IIS, sites > Default > osTicket
     
     Enable: php_imap.dll , php_intl.dll , php_opcache.dll
 
-    Refreash the page and changes above should be seen.
+    Refresh the page and changes above should be seen.
 </p>
 <br />
 
@@ -167,7 +170,7 @@ Go back to IIS, sites > Default > osTicket
 </p>
 <p>
 
-Go back to the page and you will similar page as show above. Just fill the emails as you like. The important part is the username and password for the admin.A better username might have been user_admin.Remember them or write it down for now.
+Go back to the page and you will see a similar page as shown above. Just fill the emails as you like. The important part is the username and password for the admin.A better username might have been user_admin.Remember them or write it down for now.
 </p>
 <br />
 
@@ -180,9 +183,9 @@ Go back to the page and you will similar page as show above. Just fill the email
 
     Download and Install HeidiSQL (from the installation files)
 
-    Rember the MySQL database we made at the start. Well HeidiSQL is a client that allows us to connect to that database
+    Remember the MySQL database we made at the start. Well HeidiSQL is a client that allows us to connect to that database
  
-    Create a new session, root/Password1 which is the credentails we made for the SQL at the start.
+    Create a new session, root/Password1 which is the credentials we made for the SQL at the start.
 
     Connect to the session and create a database called “osTicket” by right clicking on "unnamed">create new.
 </p>
@@ -220,14 +223,13 @@ Go back to the page and you will similar page as show above. Just fill the email
 <img src="https://i.imgur.com/WhWBs2i.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-With this we are done but lets clean some things up.
+With this we are done but let's clean some things up.
     
-Delete C:\inetpub\wwwroot\osTicket\setup which makes it so that osticket doesnt bug us with prompts everytime we login. If it doesnt allow you to delete it open the file and delete everything inside first.
+Delete C:\inetpub\wwwroot\osTicket\setup which makes it so that osticket doesn't bug us with prompts every time we login. If it doesn't allow you to delete it, open the file and delete everything inside first.
     
-Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php like we did before so only people with permisson can change things.
+Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php like we did before so only people with permission can change things.
 </p>
 <br />
-
 
 
 
