@@ -1,10 +1,12 @@
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
+<h1>osTicket Tuturial</h1>
+
+Upon completing all three parts of this tutorial, you should now have a more thorough understanding of osTickets. This includes how they operate from the perspectives of both users and agents, how to configure settings for users and agents, and how to effectively manage tickets as an agent. I hope that this knowledge will aid you in your IT journey.
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.
-We will be downloading specfic versions so that if any errors occur it can be tracked.By the end you will be able to install osTicket and move onto configuring the settings.
+This tutorial covers the necessary prerequisites and provides instructions for installing the open-source help desk ticketing system, osTicket. We will be downloading specific versions to facilitate error tracking. Upon completing this tutorial, you will be able to successfully install osTicket and move on to configuring its settings.
 <br />
 
 
