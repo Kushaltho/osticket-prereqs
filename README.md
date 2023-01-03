@@ -4,8 +4,7 @@
 
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.
-
-We will be going through the 
+We will be downloading specfic versions so that if any errors occur it can be tracked.By the end you will be able to install osTicket and move on to configuring the settings.
 <br />
 
 
@@ -57,7 +56,7 @@ Remote into the VM via remote desktop connection with the VM's public address as
 <br />
 
 <p>
-<img src="https://i.imgur.com/CbbxR07.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VCfd7Eo.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
